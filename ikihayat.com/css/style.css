@@ -1,0 +1,389 @@
+
+*{
+    font-family: sans-serif !important;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.video {
+    padding-left: 5px;
+}
+.navbar {
+    border: 0px;
+    background-color: white;
+    margin: 0px;
+
+}
+
+.navbar a {
+    color: black !important;
+    font-size: 14px;
+
+}
+
+.navbar a:hover {
+    color: #FFBA6C !important;
+
+}
+
+.logo-h-w {
+    margin-left: 27%;
+    max-height: auto;
+    margin-top: -20px;
+}
+
+.navbartext {
+    text-align: center;
+}
+
+.logopositon {
+    height: 70px;
+}
+
+.menupositon {
+    padding-top: 1%;
+}
+
+.index-insta {
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    font-family: Ebrima;
+    color: black;
+}
+
+.footerinsta {
+    margin-top: 5%;
+}
+
+.box p {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 25px;
+}
+
+.mekanlar {
+    margin-top: 30px;
+}
+
+.mekan-margin {
+    margin-top: 10px;
+}
+
+.instagramindex {
+    text-align: center;
+    font-size: small;
+    font-family: Ebrima;
+    color: gray;
+}
+
+.galeri {
+    margin-top: 10px;
+}
+
+.hakkimizdaw {
+    font-family: Verdana;
+    margin-top: 15px;
+    border: 1px solid gray;
+    padding: 15px;
+}
+.album{
+    margin-left:7%; margin-right:5%;
+}
+.content1 {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color:lightgray;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.navmenu {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.section {
+    position: relative;
+    width: 900px;
+    max-width: 80%;
+    border: 2px solid #333;
+    border-top: none;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.section h1 {
+    position: relative;
+    margin-top: -14px;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+.top-border {
+    position: absolute;
+    height: 2px;
+    width: 24%;
+    background-color: #333;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
+
+@media (max-width: 685px) {
+    .top-border {
+        width: 18%;
+    }
+}
+
+.section p {
+    width: 61%;
+    margin: 10px auto 20px auto;
+    line-height: 30px;
+}
+
+.section a {
+    outline: 0;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 440px;
+    max-width: 80%;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 3px;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.section a:hover {
+    background-color: #1D222D;
+}
+
+.section a:link,
+.section a:visited,
+.section a:link:hover,
+.section a:visited:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .top-border {
+        display: none;
+    }
+
+    .section {
+        border-top: 2px solid #333;
+    }
+
+    .section h1 {
+        margin: 20px 6px;
+    }
+}
+
+
+/*İletisim*/
+
+hr {
+    border-top: 1px solid #000;
+    width: 50%;
+}
+
+a {
+    color: #000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#contact2 {
+    letter-spacing: 3px;
+}
+
+
+
+#author a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    border-top: 16px solid skyblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+.loading {
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#myDiv {
+    display: none;
+    text-align: center;
+}
