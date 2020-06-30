@@ -1,2 +1,2 @@
 # FotografcilikWebsite
-HTML+CSS+JS+PHP ile Fotoğrafcılık sitesi
+HTML+BOOTSTRAP+CSS+JS+PHP ile Fotoğrafcılık sitesi
